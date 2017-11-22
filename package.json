@@ -1,6 +1,6 @@
 {
   "name": "terminal-palette",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "terminal-palette.js",
   "description": "Adds color/backgrounds/styles to terminal text",
   "bin": {
