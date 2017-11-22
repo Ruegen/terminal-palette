@@ -60,7 +60,11 @@ Note: This will polutte the string object adding to the prototype of String
 
 e.g.
 ```js
-const terminalPalette = require('terminal-palette')
+// require in library, this will add it feature to strings
+require('terminal-palette')
 
+console.log("This text will be blue".blue())
+
+// Template string example, chain example
 console.log(`hello ${'world'.red().bgYellow()}`.blue())
 ```

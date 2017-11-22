@@ -1,27 +1,41 @@
-
-  {
-    "author": "Ruegen Aschenbrenner",
-    "name": "terminal-palette",
-    "description": "Adds color/backgrounds/mods to terminal text",
-    "version": "0.1.1",
-    "repository": {
-      "url": "https://github.com/Ruegen/terminal-palette"
-    },
-    "main": "./lib/terminal-palette",
-    "keywords": [
-      "terminal",
-      "color",
-      "colour",
-      "background"
-    ],
-    "bin": {
-      "terminalPalette": "./bin/terminal-palette"
-    },
-    "dependencies": {
-      "chalk": "^2.3.0"
-    },
-    "engines": {
-      "node": "*"
-    }
-  }
-
+{
+  "name": "terminal-palette",
+  "version": "0.0.7",
+  "main": "terminal-palette.js",
+  "description": "Adds color/backgrounds/styles to terminal text",
+  "bin": {
+    "terminal-palette": "terminal-palette.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruegen/terminal-palette.git"
+  },
+  "keywords": [
+    "terminal",
+    "color",
+    "colour",
+    "background"
+  ],
+  "files":[
+    "terminal-palette.js"
+  ],
+  "author": "Ruegen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruegen/terminal-palette/issues"
+  },
+  "homepage": "https://github.com/Ruegen/terminal-palette#readme",
+  "engines": {
+		"node": ">=4"
+	}
+}
