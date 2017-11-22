@@ -1,8 +1,10 @@
 # 🎨 Terminal Palette
 
-## Terminal Pallette allows you to call methods on your strings to change the style  (limited), color or background you log to the terminal.
+*Terminal Pallette* allows you to call methods on your strings to change the style  (limited), color or background you log to the terminal.
 
-## I wanted something similar to [Chalk](https://github.com/chalk/chalk) with the ability to call the methods on a string. Terminal Palette uses the package [ansi-styles](ansi-styles) 
+I wanted something similar to [Chalk](https://github.com/chalk/chalk) with the ability to call the methods on a string. Terminal Palette uses the package [ansi-styles](ansi-styles) 
+
+Note: This will polutte the string object adding to the prototype of String
 
 ## Styles
 
@@ -55,8 +57,10 @@
 - `bgCyanBright`
 - `bgWhiteBright`
 
+
+e.g.
 ```js
-const terminalPalette = require('./lib/terminal-palette')
+const terminalPalette = require('terminal-palette')
 
 console.log(`hello ${'world'.red().bgYellow()}`.blue())
 ```
